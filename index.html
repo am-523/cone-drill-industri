@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TITAN 40-XR — Heavy Rotary Cone Drill</title>
+  <meta name="description" content="TITAN 40-XR Industrial Tri-Cone Rotary Drill Bit. Clean Swiss engineering, tungsten carbide cutting metallurgy, and extreme rock penetration.">
+
+  <!-- Preload First Canvas Frame -->
+  <link rel="preload" as="image" href="/asset/ezgif-frame-001.jpg">
+
+  <!-- Google Font: Inter ONLY -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body class="site-body">
+
+  <!-- MINIMAL CLEAN PRELOADER -->
+  <div id="preloader" class="preloader" aria-live="polite">
+    <div class="preloader-box">
+      <div class="preloader-header">
+        <span class="preloader-brand">TITAN 40-XR</span>
+        <span id="loading-pct" class="preloader-pct">0%</span>
+      </div>
+      <div class="preloader-track">
+        <div id="loading-bar" class="preloader-bar"></div>
+      </div>
+      <div id="loading-status" class="preloader-note">Loading assets...</div>
+    </div>
+  </div>
+
+  <!-- FLOATING MINIMAL NAVBAR (FROSTED GLASS) -->
+  <header class="navbar" role="banner">
+    <div class="navbar-container">
+      
+      <!-- BRAND LOGO -->
+      <a href="#" class="nav-logo" aria-label="TITAN 40-XR Home">
+        <span class="logo-bold">TITAN</span>
+        <span class="logo-light">40-XR</span>
+      </a>
+
+      <!-- NAV LINKS -->
+      <nav class="nav-menu" aria-label="Main Navigation">
+        <button class="nav-item active" data-target="#act-0">Overview</button>
+        <button class="nav-item" data-target="#act-1">Metallurgy</button>
+        <button class="nav-item" data-target="#act-2">Bearings</button>
+        <button class="nav-item" data-target="#act-3">Specifications</button>
+      </nav>
+
+      <!-- CTA ACTION -->
+      <div class="nav-actions">
+        <button id="cta-inquire" class="nav-cta-btn">Inquire</button>
+      </div>
+
+    </div>
+  </header>
+
+  <!-- FIXED FULL-SCREEN 50-FRAME BACKGROUND CANVAS -->
+  <div class="canvas-fixed-viewport" aria-hidden="true">
+    <canvas id="drill-canvas" class="drill-canvas" width="1920" height="1080" aria-label="3D Cone Drill Bit Animation"></canvas>
+    <div class="hero-scrim"></div>
+  </div>
+
+  <!-- CONTINUOUS VERTICAL SCROLL STREAM -->
+  <main id="main-content" class="story-stream">
+
+    <!-- ACT 1: INTRO (0% - 25%) -->
+    <section class="story-section" id="act-0">
+      <div class="story-content">
+        <h1 class="story-heading">Engineered for<br>deep-strata rock.</h1>
+        <p class="story-desc">
+          Heavy-duty roller cone bit designed for extreme geological exploration, abrasive geothermal wells, and high-impact rock formations.
+        </p>
+      </div>
+    </section>
+
+    <!-- ACT 2: METALLURGY (25% - 50%) -->
+    <section class="story-section" id="act-1">
+      <div class="story-content">
+        <h2 class="story-heading">Zero fracture under<br>percussive load.</h2>
+        <p class="story-desc">
+          Micro-grain WC-Co inserts with diamond-enhanced gauge row compacts resist up to 1,450°C thermal friction in basalt, granite, and chert.
+        </p>
+      </div>
+    </section>
+
+    <!-- ACT 3: BEARINGS (50% - 75%) -->
+    <section class="story-section" id="act-2">
+      <div class="story-content">
+        <h2 class="story-heading">Sealed against<br>250 bar pressure.</h2>
+        <p class="story-desc">
+          Precision elastomer O-ring and silver-inlaid journal bushings prevent abrasive mud infiltration, eliminating downhole bearing seizure.
+        </p>
+      </div>
+    </section>
+
+    <!-- ACT 4: PERFORMANCE & INQUIRY (75% - 100%) -->
+    <section class="story-section" id="act-3">
+      <div class="story-content">
+        <h2 class="story-heading">Built for maximum<br>penetration rates.</h2>
+        <p class="story-desc">
+          Continuous 180 kN thrust capacity delivering exceptional bottom-hole cleaning and extended bit hours in severe drilling environments.
+        </p>
+        <div class="story-cta-row">
+          <button class="hero-cta-btn" onclick="alert('Technical Spec Package requested. Our engineering team will contact you.')">
+            <span>Inquire for Deployment</span>
+            <span class="cta-arrow">→</span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <script type="module" src="./main.js"></script>
+</body>
+</html>
